@@ -26,4 +26,21 @@ cout << "Hello World!" << endl; // show up Hello World!
 
 This is a basic line of code to have these words **_and a new line_** in your terminal or cmd tool. The comments after "//" will not affect this line of code before.
 
+#### A trap impressed me
+
+When TA went through the if statement, he showed an example like this and asked us how the outcome looked like. 
+```
+if (i = 0) { // i was 1 before
+  // some kind of coding here...
+}
+```
+In fact, the code inside if statement will continue as i become 0.
+
+I thought the statement won't work since i is 1. But Actually the correct format should be in this way:
+```
+if (i == 0)
+```
+
+### Well
+
 ## To be continued
